@@ -9,10 +9,17 @@
     <title>Gallary App</title>
 </head>
 <body>
+<div class="container">
+    <h1>Galary App</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium eum eveniet ex fugiat laboriosam
+        magni nesciunt odit officia placeat. Aliquid distinctio expedita itaque, maiores nam natus porro tempora unde.</p>
+    <hr />
 
-<h1>Galary App</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium eum eveniet ex fugiat laboriosam
-    magni nesciunt odit officia placeat. Aliquid distinctio expedita itaque, maiores nam natus porro tempora unde.</p>
+    <strong>The name of the project is: </strong>
+    <span th:text="${projects.projectName}"></span>
+
+
+</div>
 </body>
 
 <script th:src="@{/js/bootstrap.js}"></script>
